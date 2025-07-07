@@ -11,6 +11,11 @@ import code from './assets/code.png';
 import julien from './assets/julien.png';
 import ryan from './assets/ryan.png';
 import maxa from './assets/maxa.png';
+import Admission from './components/Admission';
+import Footer from './components/Footer';
+import Languages from './components/Languages';
+import Partners from './components/Partners';
+import Program from './components/Program';
 
 function App() {
   return (
@@ -254,6 +259,11 @@ function App() {
           </div>
         </div>
       </main>
+      <Admission/>
+      <Program/>
+      <Languages/>
+      <Partners/>
+      <Footer/>
     </>
   );
 }
